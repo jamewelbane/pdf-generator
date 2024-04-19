@@ -20,7 +20,7 @@ if(isset($_POST['generate_pdf'])) {
    
     $dompdf->getFontMetrics()->get_font('Arial, sans-serif');
 
-    // Dynamically generate HTML content with user's input and selected font style
+    // Dynamically generate
     $html = '<html><head><style>body { font-family: ' . $font . '; }</style></head><body>';
     $html .= '<h1>' . $header . '</h1>';
     $html .= '<p>' . $content . '</p>';
